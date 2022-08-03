@@ -1,0 +1,17 @@
+libreROM
+===========
+
+Getting started
+---------------
+
+To get started with Android/libreROM, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+
+To initialize your local repository using the LineageOS trees, use a command like this:
+```
+repo init -u https://github.com/libreROM/manifest.git -b moth
+```
+Then to sync up:
+```
+repo sync
+```
+
