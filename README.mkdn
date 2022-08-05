@@ -12,6 +12,6 @@ repo init -u https://github.com/libreROM/manifest.git -b moth
 ```
 Then to sync up:
 ```
-repo sync
+repo sync -c -j6 --force-sync --no-clone-bundle --no-tags
 ```
 
